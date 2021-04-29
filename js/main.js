@@ -39,7 +39,7 @@ $(function(){
     $('.stories__more-item').toggleClass('stories__more-item--active');
   });
 
-  $(".menu__list a, .header__bottom-btn, .footer__top-nav a").on("click", function (e) {
+  $(".menu__list a, .header__bottom-btn, .usp__wrapp a, .footer__top-nav a").on("click", function (e) {
 
     e.preventDefault();
 
