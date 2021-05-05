@@ -1325,4 +1325,16 @@ input::-moz-placeholder {
   .form{
     padding: 70px 0;
   }
+	
+	.form__wrapp{
+		flex-wrap: wrap;
+	}
+	
+	.news__items{
+		flex-wrap: wrap;
+	}
+	
+	.news__items-input{
+		padding-left: 0;
+	}
 }
