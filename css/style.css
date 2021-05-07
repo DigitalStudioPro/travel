@@ -1167,9 +1167,9 @@ input::-moz-placeholder {
   }
 
   .mission__img{
-    width: 200px;
+    width: 80%;
     height: 282px;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .mission__text{
