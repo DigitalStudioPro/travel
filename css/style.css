@@ -1088,6 +1088,14 @@ input::-moz-placeholder {
   .footer__top{
     flex-wrap: wrap;
   }
+	
+	.content__title{
+		font-size: 148px;
+	}
+	
+	.content__text{
+		font-size: 32px
+	}
 }
 
 @media (max-width: 640px){
@@ -1134,7 +1142,7 @@ input::-moz-placeholder {
 
   .usp-title{
     font-size: 80px;
-    margin: -21% 0 0 -9%;
+    margin: -21% 0 0 -9.5%;
 		width: auto;
   }
 
@@ -1204,10 +1212,12 @@ input::-moz-placeholder {
   .approach__items{
     margin: 25px 0 0;
     text-align: center;
+		width: 99%;
   }
 
   .approach-title{
     margin-bottom: 30px;
+		width: 100%;
   }
 
   .approach__text{
@@ -1300,6 +1310,10 @@ input::-moz-placeholder {
     width: auto;
     font-size: 30px;
   }
+	
+	advantages__list{
+		margin-left: 64px;
+	}
 
   .next{
     padding: 70px 0;
@@ -1339,12 +1353,20 @@ input::-moz-placeholder {
 		flex-wrap: wrap;
 	}
 	
+	.form__input{
+		margin-left: -80px;
+	}
+	
 	.news__items{
 		flex-wrap: wrap;
 	}
 	
 	.news__items-input{
 		padding-left: 0;
+	}
+	
+	.team {
+		padding: 70px 0;
 	}
 	
 	.team__items{
