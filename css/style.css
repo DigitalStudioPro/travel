@@ -1393,3 +1393,45 @@ input::-moz-placeholder {
 		padding-bottom: 30px;
 	}
 }
+
+@media (max-width: 390px){
+	.footer{
+		padding: 50px 0;
+	}
+	
+	.footer__top{
+		margin-bottom: 0;
+	}
+	
+	.footer__top a{
+		margin: 0 auto;
+	}
+	
+	.footer__top-list{
+		color: transparent;
+	}
+	
+	.news__items-input,
+	.footer__top-list {
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	
+	.footer-soc__item a{
+		color: transparent;
+		font-size: 0;
+	}
+	
+	.footer__top-soc:nth-child(1) a{
+		background-image: url(../images/icons/insta.svg);
+	}
+	
+	.footer__top-soc:nth-child(2) a{
+		background-image: url(../images/icons/fb.svg);
+	}
+	
+	.footer__top-soc:nth-child(3) a{
+		background-image: url(../images/icons/twit.svg);
+	}
+	
+}
