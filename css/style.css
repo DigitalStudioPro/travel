@@ -1419,18 +1419,20 @@ input::-moz-placeholder {
 	
 	.footer-soc__item a{
 		color: transparent;
-		font-size: 0;
+		font-size: 9px;
+		background-repeat: no-repeat;
+		margin: 0 auto;
 	}
 	
-	.footer__top-soc:nth-child(1) a{
+	.insta{
 		background-image: url(../images/icons/insta.svg);
 	}
 	
-	.footer__top-soc:nth-child(2) a{
+	.fb{
 		background-image: url(../images/icons/fb.svg);
 	}
 	
-	.footer__top-soc:nth-child(3) a{
+	.twit{
 		background-image: url(../images/icons/twit.svg);
 	}
 	
