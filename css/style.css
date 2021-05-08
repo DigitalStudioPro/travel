@@ -1265,6 +1265,7 @@ input::-moz-placeholder {
 	.stories__item-right {
     max-width: 100%;
     padding-left: 12px;
+	}
 
   .stories__more-items{
     flex-wrap: wrap;
