@@ -1195,6 +1195,10 @@ input::-moz-placeholder {
     flex-wrap: wrap;
     text-align: center;
   }
+	
+	about__travel-wrapp{
+		margin: 0 auto;
+	}
 
   .travel__text{
     padding: 0 0 50px;
@@ -1205,6 +1209,7 @@ input::-moz-placeholder {
   .approach__img{
     width: 394px;
     height: 434px;
+		margin: 0 auto;
   }
 
   .about__approach{
@@ -1212,7 +1217,7 @@ input::-moz-placeholder {
   }
 
   .approach__items{
-    margin: 25px 0 0;
+    margin: 25px auto 0;
     text-align: center;
 		width: 99%;
   }
