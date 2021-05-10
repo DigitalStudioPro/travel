@@ -1196,10 +1196,6 @@ input::-moz-placeholder {
     text-align: center;
   }
 	
-	about__travel-wrapp{
-		margin: 0 auto;
-	}
-	
 	.about__travel-wrapp,
 	.advantages__wrapp-items ul,
 	.form__items{
@@ -1319,7 +1315,7 @@ input::-moz-placeholder {
     font-size: 30px;
   }
 	
-	advantages__list{
+	.advantages__list{
 		margin-left: 64px;
 		align-items: center;
 	}
