@@ -1209,7 +1209,7 @@ input::-moz-placeholder {
 	.form__items-title,
 	.form__items-text,
 	.team__title{
-		margin: 0 auto:
+		margin: 0 auto;
 	}
 
   .travel__text,
