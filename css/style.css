@@ -1202,8 +1202,7 @@ input::-moz-placeholder {
 	
 	.about__travel-wrapp,
 	.advantages__wrapp-items ul,
-	.form__items,
-	.team__title{
+	.form__items{
 		margin: 0 auto;
 	}
 
@@ -1380,6 +1379,10 @@ input::-moz-placeholder {
 		padding: 70px 0;
 	}
 	
+	.team__title{
+		margin: 0 auto 20px;
+	}
+	
 	.team__items{
 		flex-wrap: wrap;
 	}
@@ -1389,7 +1392,7 @@ input::-moz-placeholder {
 	}
 		
 	.team__item{
-		margin-bottom: 0 auto 30px;	
+		margin: 0 auto 30px;	
 	}
 	
 	.news__email{
