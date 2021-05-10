@@ -1199,10 +1199,23 @@ input::-moz-placeholder {
 	about__travel-wrapp{
 		margin: 0 auto;
 	}
+	
+	.travel__sub,
+	.travel__title,
+	.next__wrapp-span,
+	.next__wrapp-title,
+	.next__wrapp-text,
+	.next__wrapper-text,
+	.form__items-title,
+	.form__items-text,
+	.team__title{
+		margin: 0 auto:
+	}
 
-  .travel__text{
+  .travel__text,
+	.approach__text{
     padding: 0 0 50px;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .about__travel-img,
@@ -1225,11 +1238,6 @@ input::-moz-placeholder {
   .approach-title{
     margin-bottom: 30px;
 		width: 100%;
-  }
-
-  .approach__text{
-    margin: 0;
-    padding: 0;
   }
 
   .approach__text + .approach__text{
@@ -1370,7 +1378,7 @@ input::-moz-placeholder {
 	}
 	
 	.news__items-input{
-		padding-left: 0;
+		padding-left: 10px;
 	}
 	
 	.team {
@@ -1386,7 +1394,7 @@ input::-moz-placeholder {
 	}
 		
 	.team__item{
-		margin-bottom: 30px;	
+		margin-bottom: 0 auto 30px;	
 	}
 	
 	.news__email{
