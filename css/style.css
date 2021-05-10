@@ -1200,14 +1200,9 @@ input::-moz-placeholder {
 		margin: 0 auto;
 	}
 	
-	.travel__sub,
-	.travel__title,
-	.next__wrapp-span,
-	.next__wrapp-title,
-	.next__wrapp-text,
-	.next__wrapper-text,
-	.form__items-title,
-	.form__items-text,
+	.about__travel-wrapp,
+	.advantages__wrapp-items ul,
+	.form__items,
 	.team__title{
 		margin: 0 auto;
 	}
@@ -1250,7 +1245,6 @@ input::-moz-placeholder {
 
   .num__items{
     flex-wrap: wrap;
-    
   }
 
   .num__items-item{
@@ -1342,6 +1336,7 @@ input::-moz-placeholder {
   .next__wrapp-items{
     text-align: center;
     padding: 0;
+	  margin: 0 auto;
   }
 
   .next__wrapp-items p{
