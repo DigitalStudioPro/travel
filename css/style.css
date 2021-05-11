@@ -1096,6 +1096,10 @@ input::-moz-placeholder {
 	.content__text{
 		font-size: 32px
 	}
+	
+	.content{
+		height: 100%;
+	}
 }
 
 @media (max-width: 640px){
